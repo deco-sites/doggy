@@ -49,6 +49,60 @@
       ]
     },
     {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "arrows": true,
+      "interval": 2,
+      "title": "Delighting in the Joy of Our Cherished Dog Owners",
+      "slides": [
+        {
+          "content": {
+            "description": "My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11741/1e10115c-5d2d-4cc4-88f3-1ffe0538e74e",
+            "name": "Shaheli, North 24 Pgs",
+            "position": "Proud Owner of Golden Retriever"
+          }
+        },
+        {
+          "content": {
+            "description": "Through TinDog my dog found her life partner. I'm so happy for her. Thank You TinDog <3",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11741/8923aeb0-9cd6-44b4-9ca8-7ccc8c51d0c6",
+            "name": " Bikram, West Bengal",
+            "position": "Lovely Owner of Labrador Retriever"
+          }
+        },
+        {
+          "content": {
+            "description": "Now my dog no longer have to sniff other dogs for love. he found the hottest Corgi on TinDog UwU",
+            "name": "Asim, Hooghly",
+            "position": "Owner of A Siberian Husky",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11741/ce1c28a3-d825-4d14-a499-6a91ba530314"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Brands.tsx",
+      "slides": [],
+      "title": "Our Global Partners",
+      "addLogo": [
+        {
+          "Imgsrc": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11741/57d01130-f5ab-4870-a277-f99124b8cc56"
+        },
+        {
+          "Imgsrc": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11741/95465bd2-9e1d-48a8-940c-7966c73dd14e"
+        },
+        {
+          "Imgsrc": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11741/51f47180-5037-4c9b-931d-61fc575b1d71"
+        },
+        {
+          "Imgsrc": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11741/5d3418b9-b058-4ea6-acba-34daef84c6ac"
+        },
+        {
+          "Imgsrc": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11741/4d02abff-5a9b-4f15-bf40-1756a65b57e9"
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/ImageWithParagraph.tsx"
     },
     {
@@ -57,10 +111,6 @@
     },
     {
       "__resolveType": "site/sections/BlogPosts.tsx"
-    },
-    {
-      "__resolveType": "site/sections/Testimonials.tsx",
-      "arrows": true
     },
     {
       "__resolveType": "site/sections/Faq.tsx"

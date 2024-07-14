@@ -109,9 +109,9 @@ function SliderItem(
   return (
     <div
       id={id}
-      class="relative overflow-y-hidden w-full min-h-[292px]"
+      class="relative overflow-y-hidden w-full min-h-[292px] "
     >
-      <div class="flex flex-col justify-center gap-16 p-8 border border-base-content rounded-2xl h-full max-w-[600px]">
+      <div class="flex flex-col justify-center gap-16 p-8 border border-base-content rounded-2xl h-full max-w-[600px] bg-gray-100">
         <p class="text-lg">{content?.description}</p>
         <div class="flex items-center gap-5">
           <Image
@@ -195,9 +195,10 @@ function Carousel(props: Props) {
   const { title, slides, interval } = { ...DEFAULT_PROPS, ...props };
 
   return (
+    <div class="bg-pink-300">
     <div
       id={id}
-      class="min-h-min flex flex-col lg:container md:max-w-6xl lg:mx-auto mx-4 py-12 lg:py-28"
+      class="min-h-min flex flex-col lg:container md:max-w-6xl lg:mx-auto mx-4 py-12 lg:py-28 "
     >
       <h2 class="text-4xl leading-snug lg:w-1/2 pb-12 lg:pb-16">
         {title}
@@ -225,6 +226,7 @@ function Carousel(props: Props) {
         {props.dots && <Dots slides={slides} interval={interval} />}{" "}
         {props.arrows && <Buttons />}
       </div>
+    </div>
     </div>
   );
 }

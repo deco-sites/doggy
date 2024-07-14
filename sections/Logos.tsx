@@ -12,7 +12,7 @@ export interface Props {
   logos?: Logo[];
 }
 
-const MIN_LOGOS_COUNT = 30;
+const MIN_LOGOS_COUNT = 15;
 
 const IMG_PLACEHOLDER = Array(Math.max(MIN_LOGOS_COUNT, 30)).fill(0).map(() => ({
   src:
@@ -27,12 +27,12 @@ export default function Logos({
   const effectiveLogos = logos.length >= MIN_LOGOS_COUNT ? logos : IMG_PLACEHOLDER.slice(0, MIN_LOGOS_COUNT);
 
   const slideContent = (
-    <div class="flex items-center gap-4">
+    <div class="flex items-center gap-12">
       {effectiveLogos.map((logo, index) => {
         return (
           <a key={index} class="flex items-center justify-center p-2" href="/">
             <Image src={logo.src || ""} width={30} height={60} class="object-contain" />
-            <span class="text-xl font-bold">TinDog</span>
+            <span class="text-xl font-bold ml-2">TinDog</span>
           </a>
         );
       })}

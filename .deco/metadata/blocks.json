@@ -116,5 +116,9 @@
   "/.deco/blocks/Preview%20%2Fsections%2FFeatures.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Features.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FBrands.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Brands.tsx"
   }
 }
