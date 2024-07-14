@@ -120,5 +120,9 @@
   "/.deco/blocks/Preview%20%2Fsections%2FBrands.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Brands.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FPricing.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Pricing.tsx"
   }
 }
