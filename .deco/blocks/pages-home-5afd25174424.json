@@ -31,6 +31,16 @@
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11741/14526439-df3a-4162-8ac3-df3b882ecd95"
     },
     {
+      "__resolveType": "site/sections/Features.tsx",
+      "title": "Features",
+      "Description1": "So easy to use, even your dog could do it",
+      "Description2": "We have all the dogs, the greatest dogs",
+      "Description3": "Find the love of your dog's life or your money back",
+      "Title1": "Easy to use",
+      "Title2": "Elite Clientele",
+      "Title3": "Guaranteed to work"
+    },
+    {
       "__resolveType": "site/sections/Logos.tsx",
       "logos": [
         {
@@ -57,10 +67,6 @@
     },
     {
       "__resolveType": "Footer"
-    },
-    {
-      "__resolveType": "site/sections/Features.tsx",
-      "title": "Features"
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
