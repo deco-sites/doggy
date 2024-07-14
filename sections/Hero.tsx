@@ -29,9 +29,9 @@ const PLACEMENT = {
 };
 
 export default function HeroFlats({
-  title = "Click here to tweak this text however you want.",
+  title = "Tinder but for dogs.",
   description =
-    "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+    "Meet new and interesting dogs nearby",
   image,
   placement = "left",
   cta = [
@@ -40,8 +40,9 @@ export default function HeroFlats({
   ],
 }: Props) {
   return (
-    <nav class="lg:container lg:mx-auto mx-4 bg-pink-500">
-      <div class="flex flex-col items-center gap-8 ">
+    <div class="bg-pink-200">
+    <nav class="lg:container lg:mx-auto mx-4 ">
+      <div class="flex flex-col items-center gap-8">
         <div
           class={`flex w-full xl:container xl:mx-auto py-20 mx-5 md:mx-10 z-10 ${
             image
@@ -51,14 +52,15 @@ export default function HeroFlats({
         >
           {image && (
             <Image
-              width={640}
-              class="w-full lg:w-1/2 object-fit"
-              sizes="(max-width: 640px) 100vw, 30vw"
-              src={image}
-              alt={image}
-              decoding="async"
-              loading="lazy"
-            />
+            width={640}
+            class="w-full lg:w-1/2 object-fit rounded-lg"
+            sizes="(max-width: 640px) 50vw, 15vw"
+            src={image}
+            alt={image}
+            decoding="async"
+            loading="lazy"
+          />
+          
           )}
           <div
             class={`mx-6 lg:mx-auto lg:w-full space-y-4 gap-4 ${
@@ -68,13 +70,13 @@ export default function HeroFlats({
             }`}
           >
             <div
-              class="inline-block lg:text-[80px] text-4xl leading-none font-medium"
+              class="inline-block lg:text-[80px] text-4xl leading-none font-medium text-gray-900"
               dangerouslySetInnerHTML={{
                 __html: title,
               }}
             >
             </div>
-            <p class="text-lg md:text-md leading-[150%]">
+            <p class="text-lg md:text-xl leading-[150%]">
               {description}
             </p>
             <div class="flex items-center gap-3">
@@ -92,9 +94,37 @@ export default function HeroFlats({
                 </a>
               ))}
             </div>
+            <div class="flex items-center gap-3 mt-4">
+                <a
+                  href="https://play.google.com/store/apps"
+                  target="_blank"
+                  class="btn btn-primary flex items-center gap-2"
+                >
+                  <img
+                    src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11741/9ec53be9-1008-4f0a-a9b5-c97da7d7d508"
+                    alt="Play Store"
+                    class="w-6 h-6"
+                  />
+                  Download
+                </a>
+                <a
+                  href="https://www.apple.com/app-store/"
+                  target="_blank"
+                  class="btn bg-white text-black flex items-center gap-2 border border-gray-300"
+                >
+                  <img
+                    src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11741/00a3390d-fdfa-4c0b-9488-062ecb983e60"
+                    alt="Apple Store"
+                    class="w-6 h-6"
+                  />
+                  Download
+                </a>
+
+              </div>
           </div>
         </div>
       </div>
     </nav>
+    </div>
   );
 }

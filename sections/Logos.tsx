@@ -12,32 +12,35 @@ export interface Props {
   logos?: Logo[];
 }
 
-const IMG_PLACEHODLER = Array(30).fill(0).map(() => ({
+const MIN_LOGOS_COUNT = 30;
+
+const IMG_PLACEHOLDER = Array(Math.max(MIN_LOGOS_COUNT, 30)).fill(0).map(() => ({
   src:
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/03fbcc78-ca86-4616-a59a-b8aa18331a9c",
+    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11741/3eb86c50-b76b-45ee-96f9-842391c65d67",
   altText: "Logo",
 }));
 
 export default function Logos({
-  title = "Edit this heading however you want",
-  logos = IMG_PLACEHODLER,
+  title = "",
+  logos = IMG_PLACEHOLDER,
 }: Props) {
+  const effectiveLogos = logos.length >= MIN_LOGOS_COUNT ? logos : IMG_PLACEHOLDER.slice(0, MIN_LOGOS_COUNT);
+
   const slideContent = (
-    <div class="flex items-center gap-20">
-      {logos?.map((logo) => {
+    <div class="flex items-center gap-4">
+      {effectiveLogos.map((logo, index) => {
         return (
-          <Image
-            src={logo.src || ""}
-            alt={logo.altText || ""}
-            width={110}
-            height={25}
-          />
+          <a key={index} class="flex items-center justify-center p-2" href="/">
+            <Image src={logo.src || ""} width={30} height={60} class="object-contain" />
+            <span class="text-xl font-bold">TinDog</span>
+          </a>
         );
       })}
     </div>
   );
+
   return (
-    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 py-6 lg:py-14">
+    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 py-4 lg:py-6">
       <div class="flex flex-col gap-12">
         <p class="text-center text-lg">{title}</p>
         <div class="relative w-full overflow-hidden h-11">

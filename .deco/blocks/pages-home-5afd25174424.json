@@ -3,17 +3,40 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "Header"
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [
+          {
+            "label": "Contact Us",
+            "url": "/"
+          },
+          {
+            "label": "Pricing",
+            "url": "/"
+          },
+          {
+            "label": "Download",
+            "url": "/"
+          },
+          {}
+        ],
+        "buttons": []
+      }
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<h1><strong>Tinder but for dogs.</strong></h1>",
       "cta": [],
       "description": "Meet new and interesting dogs nearby",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11741/4f703d93-575a-4808-8d2f-08759f1bf4da"
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11741/14526439-df3a-4162-8ac3-df3b882ecd95"
     },
     {
-      "__resolveType": "site/sections/Logos.tsx"
+      "__resolveType": "site/sections/Logos.tsx",
+      "logos": [
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11741/3eb86c50-b76b-45ee-96f9-842391c65d67"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx"
@@ -34,6 +57,10 @@
     },
     {
       "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "site/sections/Features.tsx",
+      "title": "Features"
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
