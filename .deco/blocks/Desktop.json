@@ -1,1 +1,4 @@
-{"__resolveType":"website/matchers/device.ts","desktop":true}
+{
+  "__resolveType": "website/matchers/device.ts",
+  "desktop": false
+}

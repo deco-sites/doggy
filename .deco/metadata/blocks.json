@@ -104,5 +104,25 @@
   "/.deco/blocks/Vanilla.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Theme/Theme.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FLogos.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Logos.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2Ffeatures.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/features.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FFeatures.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Features.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FBrands.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Brands.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FPricing.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Pricing.tsx"
   }
 }
