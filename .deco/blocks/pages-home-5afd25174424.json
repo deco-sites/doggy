@@ -103,19 +103,9 @@
       ]
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
-    },
-    {
       "__resolveType": "site/sections/Pricing.tsx",
       "title": "A Plan for Every Dog's Needs",
       "description": "Simple and affordable price plans for you and your dog."
-    },
-    {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right"
-    },
-    {
-      "__resolveType": "site/sections/BlogPosts.tsx"
     },
     {
       "__resolveType": "site/sections/Faq.tsx"
