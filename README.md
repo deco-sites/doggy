@@ -1,3 +1,8 @@
+
+
+[View PDF](DecoHack.pdf)
+
+
 # Landing — deco.cx template 
 
 Welcome to your [deco.cx](https://deco.cx) site!
